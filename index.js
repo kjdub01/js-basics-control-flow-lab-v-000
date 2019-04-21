@@ -3,7 +3,7 @@ function scuberGreetingForFeet(someValue) {
   let message
   if (someValue <= 400) {
     message = "This one is on me!";
-  } else if (1999< message > 2000) {
+  } else if (1999< message && message > 2000) {
     message = "I will gladly take your thirty bucks.";
   } else (someValue > 2500) {
     message = "No can do.";
