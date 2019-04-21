@@ -1,12 +1,12 @@
 // Write your code in this file!
 function scuberGreetingForFeet(someValue) {
-  let feet;
+  let message;
   if (someValue <= 400) {
-    feet = "This one is on me!";
-  } else if (1999 < feet && feet < 2500) {
-    feet = "I will gladly take your thirty bucks.";
+    message = "This one is on me!";
+  } else if (1999 < someValue && someValue < 2500) {
+    message = "I will gladly take your thirty bucks.";
   } else {
-    feet = "No can do.";
+    message = "No can do.";
   }
-  return feet
+  return message
 }
